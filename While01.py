@@ -9,7 +9,7 @@ def main(str):
     Returns:
         int: return answer
     """
-    uzunligi=len(str)
+    """uzunligi=len(str)
     a=0
     c=0
     while a<uzunligi:
@@ -19,4 +19,5 @@ def main(str):
     a+=1
 
     return c
-print(main('1q2w3e'))
+print(main('1q2w3e'))"""
+print(1)
