@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    uzunligi=len(s)
+    a=0
+    c=0
+    while a<uzunligi:
+        b=s[a]
+        if b.isupper():
+            c+=1
+        a+=1
+    return c
+print(main('36'))
